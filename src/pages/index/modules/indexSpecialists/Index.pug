@@ -1,0 +1,9 @@
+extends constants
+include components/indexSpecialistsItem/indexSpecialistsItem
+block content
+    .index-secialists
+        button.index-secialists__button.j-index-secialists-button click
+        .index-secialists__container
+            ul.index-secialists__list
+                each item in list
+                    +IndexSecialistsItem(item)
