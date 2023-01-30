@@ -1,0 +1,56 @@
+@import "colors";
+// ----------FONTS
+$primaryFont: 'Roboto', sans-serif;
+
+// ----------BREAKPOINTS
+$mobileBreakpoint: 360;
+$tabletBreakpoint: 768;
+$desktopBreakpoint: 1024;
+$wideDesktopBreakpoint: 1920;
+
+$mediaTablet: '(min-width: #{ $tabletBreakpoint })';
+$mediaDesktop: '(min-width: #{ $desktopBreakpoint })';
+$mediaWideDesktop: '(min-width: #{ $wideDesktopBreakpoint })';
+
+// ----------COLORS
+$cWhite: #ffffff;
+$cRed: #DE3163;
+$cBlue: var(--blue);
+$primary: var(--primary-color); // Основной цвет — это цвет, который чаще всего отображается на экранах и компонентах вашего приложения.
+
+
+$primary-color: #0047bb;
+$dark-blue: #0047bb;
+$dark-blue-1: #0047bb;
+$dark-blue-2: #336cc9;
+$dark-blue-3: #6691d6;
+$dark-blue-4: #99b5e4;
+$dark-blue-5: #ccdaf1;
+$blue: #00cafb;
+$blue-1: #00cafb;
+$blue-2: #33d5fc;
+$blue-3: #66dffd;
+$blue-4: #99eafd;
+$blue-5: #ccf4fe;
+$aqua: #06d7e8;
+$aqua-1: #06d7e8;
+$aqua-2: #38dfed;
+$aqua-3: #6ae7f1;
+$aqua-4: #9beff6;
+$aqua-5: #cdf7fa;
+$green: #10ffb5;
+$green-1: #10ffb5;
+$green-2: #40ffc4;
+$green-3: #70ffd3;
+$green-4: #9fffe1;
+$green-5: #cffff0;
+$cyan: #00feff;
+$cyan-1: #00feff;
+$cyan-2: #33feff;
+$cyan-3: #66feff;
+$cyan-4: #99ffff;
+$cyan-5: #ccffff;
+
+// ----------SIZES
+$headerHeight: 6.5rem;
+$footerHeight: 2.5rem;
