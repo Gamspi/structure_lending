@@ -13,6 +13,7 @@ $mediaDesktop: '(min-width: #{ $desktopBreakpoint })';
 $mediaWideDesktop: '(min-width: #{ $wideDesktopBreakpoint })';
 
 // ----------COLORS
+//название цветов https://colorscheme.ru/color-names.html
 $cBlue: var(--blue);
 $primary: var(--primary-color); // Основной цвет — это цвет, который чаще всего отображается на экранах и компонентах вашего приложения.
 
