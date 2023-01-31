@@ -1,0 +1,14 @@
+.default-button{
+  font-size: 2rem;
+  background:red;
+  padding: 1.6rem;
+  border-radius: 1rem;
+  transition: color .15s linear, background .15s linear;
+  &:hover{
+    background: #de0000;
+  }
+  &._click{
+    color: white;
+    background: #252525;
+  }
+}

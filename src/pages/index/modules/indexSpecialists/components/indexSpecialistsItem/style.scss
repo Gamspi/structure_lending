@@ -1,0 +1,15 @@
+.index-specialist-item{
+  padding: 1rem;
+  border-radius: 1rem;
+  border: .1rem dotted $green;
+  &:not(:last-child){
+    margin-bottom: 1.6rem;
+  }
+  &:before{
+    content: '#' attr(data-count) ' ';
+  }
+  &:after{
+    content: '\263A';
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,15 @@
+extends constants
+include components/indexSpecialistsItem/indexSpecialistsItem
+
+block content
+    section.index-specialist.j-index-specialist
+        .index-specialist__contianer.container
+            .index-specialist__input
+                +DefaultInput('placeholder')
+            .index-specialist__header
+                +DefaultButton('This is button', 'j-index-specialist-button')
+            .index-specialist__container
+                ul.index-Specialist__list
+                    each item, index in list
+                        +IndexSpecialistItem(item, list.length - index)
+        include components/indexSpecialistsPopup/IndexSpecialistsPopup

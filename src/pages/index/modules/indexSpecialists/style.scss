@@ -1,0 +1,11 @@
+@import "components/index";
+.index-specialist{
+  border: 1px solid red;
+  padding: 1rem;
+  &__header{
+    margin-bottom: 1.6rem;
+  }
+  &__input{
+    padding-bottom: 1rem;
+  }
+}
